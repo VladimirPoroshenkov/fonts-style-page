@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: "Roboto Flex";
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: local("Roboto Flex"),
+        url("../Fonts/RobotoFlex-Regular.ttf") format("ttf"),
+        url("../Fonts/RobotoFlex-Regular.woff") format("woff");
+    }
+
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Cormorant', serif;
+    box-sizing: border-box;
+    margin:0px;
+    border:0px;
+
+}
+
+h1 {
+    font-family: "Roboto Flex" sans-serif;
+    color: brown;
+    text-decoration: underline;
+    text-shadow: 10px 4px 6px black;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 20px;
+    height: 30vh;
+    background-color: rgba(8, 73, 63, 0.968);
+    padding: 60px;
+    }
+
+    .custom-text {
+    font-family: 'Cormorant', serif;
+    color:rgb(42, 165, 81);
+    text-indent: 20px;
+    text-shadow: 2px 2px 2px lightgreen; ;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 80px;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+    height: 100vh;
+    background-color: rgb(69, 18, 18);
+}
+
+.custom-text2 {
+    font-family: "Roboto Flex";
+    color: rgb(13, 79, 179);
+    text-indent: 35px;
+    text-shadow: 10px 6px 8px blue;
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 40px;
+    text-align:left;
+    letter-spacing: -3px;
+    word-spacing: 10px;
+    height: 100vh;
+    background-color: rgb(244, 213, 173);
+    padding:10px;
+    margin: 10px;
+}
+
+p {
+    color:rgb(237, 64, 64);
+    text-indent: 60px;
+    text-shadow: 10px 8px 4px rgb(113, 11, 68);
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -1px;
+    word-spacing: 10px;
+    height: 70vh;
+    background-color: rgb(78, 78, 121);
+}
+
+p:first-line{
+    font-size: 30px;
+    color:rgb(191, 173, 9);
+    text-shadow: 5px 5px 5px rgb(191, 173, 9);
+}
+
+P:first-letter{
+    font-size: 50px;
+    color:rgb(166, 9, 9);
+    text-shadow: 3px 5px 8px rgb(166, 9, 9);
+}
