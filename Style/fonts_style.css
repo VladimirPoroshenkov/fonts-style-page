@@ -5,36 +5,11 @@
     font-weight: 200;
     font-display: swap;
     src: local("Roboto Flex"),
-        url("../Fonts/RobotoFlex-Regular.ttf") format("ttf"),
-        url("../Fonts/RobotoFlex-Regular.woff") format("woff");
-    }
-
-
-* {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Cormorant', serif;
-    box-sizing: border-box;
-    margin:0px;
-    border:0px;
-
+        url("../fonts/RobotoFlex-Regular.ttf") format("ttf"),
+        url("../fonts/RobotoFlex-Regular.woff") format("woff");
 }
 
-h1 {
-    font-family: "Roboto Flex" sans-serif;
-    color: brown;
-    text-decoration: underline;
-    text-shadow: 10px 4px 6px black;
-    font-size: 100px;
-    font-weight: bold;
-    line-height: 80px;
-    text-align: center;
-    letter-spacing: 20px;
-    height: 30vh;
-    background-color: rgba(8, 73, 63, 0.968);
-    padding: 60px;
-    }
-
-    .custom-text {
+    .custom-text1 {
     font-family: 'Cormorant', serif;
     color:rgb(42, 165, 81);
     text-indent: 20px;
@@ -47,6 +22,9 @@ h1 {
     word-spacing: 15px;
     height: 100vh;
     background-color: rgb(69, 18, 18);
+    box-sizing: border-box;
+    margin:0px ;
+    border:0px;
 }
 
 .custom-text2 {
@@ -57,16 +35,18 @@ h1 {
     font-size: 40px;
     font-weight: 100;
     line-height: 40px;
-    text-align:left;
+    text-align:center;
     letter-spacing: -3px;
     word-spacing: 10px;
-    height: 100vh;
     background-color: rgb(244, 213, 173);
+    box-sizing: border-box;
     padding:10px;
-    margin: 10px;
+    margin: -1px;
+    border:0px;
 }
 
-p {
+.custom-text3 {
+    font-family: 'Raleway', sans-serif;
     color:rgb(237, 64, 64);
     text-indent: 60px;
     text-shadow: 10px 8px 4px rgb(113, 11, 68);
@@ -78,6 +58,10 @@ p {
     word-spacing: 10px;
     height: 70vh;
     background-color: rgb(78, 78, 121);
+    box-sizing: border-box;
+    padding:10px;
+    margin: 10px;
+    border:0px;
 }
 
 p:first-line{
